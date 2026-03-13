@@ -1,0 +1,20 @@
+{
+  "name": "readflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ReadFlow empacotado como app Android com Capacitor.",
+  "scripts": {
+    "cap:add:android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "android": "npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
